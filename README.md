@@ -1,28 +1,42 @@
-# SearchGithub
+# Angular 6 Github Search Profile
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+### Simple Angular 6 app that searches Github user profiles and repositories.
+
+## Before Running this Project
+Install npm packages using 'npm install' command.
+
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Git clone this repository from [https://github.com/EKibet/SearchGithub.git](Search-Github).
+2. Make sure you have node and npm installed
+3. Run npm link in your terminal, this will download and save all required modules.
+4. Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Specifications
 
-## Running unit tests
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+|Landing page loads with Home, User and Repositories links| click on any | Respective template gets displayed|
+|Search bar| Key up/ type the user details| a realtime suggestions gets rendered while typing |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Technologies used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. TypeScript
+2. Angular 6
+3. HTML5
+4. CSS3 
 
-## Further help
+## Bugs and issues
+ No known bugs until now, but since it has just passed a single user test, if you encounter any issues Hola me on [kibetedgar@gmail.com](Edgar).
+ 
+## Licence
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
- 85b959eb9cea3b78c950e63795a593d7a3045ec9 
+This software is Licenced under MIT Licence
+Copyright 2018[https://opensource.org]( Edgar)
