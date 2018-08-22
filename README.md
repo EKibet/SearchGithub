@@ -5,11 +5,6 @@
 ## Before Running this Project
 Install npm packages using 'npm install' command.
 
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
 ## Usage
 
 1. Git clone this repository from [https://github.com/EKibet/SearchGithub.git](Search-Github).
